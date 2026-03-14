@@ -1,0 +1,179 @@
+/* Global */
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0f171e;
+  color:white;
+}
+
+/* Landing Page */
+
+.landing{
+  height:100vh;
+  background-image:url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.overlay{
+  background:rgba(0,0,0,0.7);
+  padding:60px;
+  border-radius:10px;
+  text-align:center;
+}
+
+.title{
+  font-size:50px;
+  color:#00A8E1;
+}
+
+.subtitle{
+  margin:20px 0;
+  font-size:18px;
+}
+
+.start-btn{
+  padding:12px 25px;
+  font-size:18px;
+  border:none;
+  background:#00A8E1;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+  transition:0.3s;
+}
+
+.start-btn:hover{
+  background:#0077a8;
+}
+
+/* Navbar */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:#0f171e;
+}
+
+.logo{
+  color:#00A8E1;
+}
+
+.menu{
+  display:flex;
+  gap:25px;
+}
+
+.menu p{
+  cursor:pointer;
+}
+
+/* Banner */
+
+.banner{
+  height:350px;
+  background-image:url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+  background-size:cover;
+  background-position:center;
+  padding:60px;
+}
+
+.watch-btn{
+  padding:10px 20px;
+  background:#00A8E1;
+  border:none;
+  color:white;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+/* Movie Row */
+
+.row{
+  padding:20px;
+}
+
+.row-posters{
+  display:flex;
+  gap:20px;
+  overflow-x:auto;
+}
+
+/* Movie Card */
+
+.movie-card{
+  width:200px;
+}
+
+.poster{
+  width:100%;
+  border-radius:5px;
+  cursor:pointer;
+  transition:transform 0.3s;
+}
+
+.poster:hover{
+  transform:scale(1.1);
+}
+
+.details{
+  display:flex;
+  gap:40px;
+  padding:40px;
+}
+
+.details img{
+  width:300px;
+}
+
+.watch-btn{
+  padding:10px 20px;
+  background:#00A8E1;
+  border:none;
+  color:white;
+  margin-top:20px;
+  cursor:pointer;
+}
+.search-input{
+  width:180px;        /* smaller width */
+  height:28px;
+  padding:5px 8px;
+  font-size:14px;
+  border-radius:6px;
+  border:none;
+  outline:none;
+  margin-left:10px;
+}
+
+.search-btn{
+  width:60px;        /* smaller width */
+  height:40px;
+  padding:4px 8px;
+  font-size:13px;
+  background:#00A8E1;
+  border:none;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+  margin-left:5px;
+  transition:0.3s;
+}
+
+.search-btn:hover{
+  background:#0077a8;
+}
+.menu p{
+  cursor:pointer;
+  padding-bottom:3px;
+}
+
+.menu p.active{
+  border-bottom:2px solid #00A8E1;
+  color:#00A8E1;
+}
