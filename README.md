@@ -15,3 +15,32 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 "# prime-video-project" 
+# Prime Video Clone
+
+This project is a Prime Video Clone built using React and Vite. It replicates the basic UI of Amazon Prime Video.
+
+## Features
+- Navigation bar
+- Movie banner section
+- Movie rows by category
+- Responsive UI
+
+## Technologies Used
+- React
+- JavaScript
+- CSS
+- Vite
+
+## Installation
+
+1. Clone the repository
+2. Run the following commands
+
+npm install  
+npm run dev
+
+## Project Structure
+src/
+components/
+App.jsx
+main.jsx
