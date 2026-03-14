@@ -15,32 +15,105 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 "# prime-video-project" 
-# Prime Video Clone
+# 🎬 Prime Video Clone
 
-This project is a Prime Video Clone built using React and Vite. It replicates the basic UI of Amazon Prime Video.
+A **Prime Video Clone** built using **React and Vite** that replicates the basic interface of Amazon Prime Video.
+This project demonstrates modern **frontend development using React components, reusable UI elements, and responsive design**.
 
-## Features
-- Navigation bar
-- Movie banner section
-- Movie rows by category
-- Responsive UI
+---
 
-## Technologies Used
-- React
-- JavaScript
-- CSS
-- Vite
+## 🚀 Features
 
-## Installation
+* 🎥 Banner section displaying featured content
+* 📺 Movie rows organized by categories
+* 🧭 Navigation bar similar to Prime Video
+* 🔍 Basic search functionality
+* 📱 Responsive user interface
 
-1. Clone the repository
-2. Run the following commands
+---
 
-npm install  
+## 🛠️ Technologies Used
+
+* **React**
+* **JavaScript**
+* **Vite**
+* **CSS**
+* **HTML**
+
+---
+
+## 📂 Project Structure
+
+```
+prime-video-project
+│
+├── public
+│
+├── src
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   ├── Banner.jsx
+│   │   ├── MovieRow.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/udathajyothi1985-coder/prime-video-project.git
+```
+
+Navigate to the project folder:
+
+```
+cd prime-video-project
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
 npm run dev
+```
 
-## Project Structure
-src/
-components/
-App.jsx
-main.jsx
+The application will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌐 Future Improvements
+
+* Add **user authentication (Login / Signup)**
+* Integrate **movie API for real movie data**
+* Add **video playback functionality**
+* Improve **UI animations and styling**
+
+---
+
+## 👩‍💻 Author
+
+**Jyothi**
+
+GitHub Profile:
+https://github.com/udathajyothi1985-coder
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**.
