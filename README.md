@@ -98,14 +98,7 @@ http://localhost:5173
 
 ---
 
-## 🌐 Future Improvements
 
-* Add **user authentication (Login / Signup)**
-* Integrate **movie API for real movie data**
-* Add **video playback functionality**
-* Improve **UI animations and styling**
-
----
 
 ## 👩‍💻 Author
 
